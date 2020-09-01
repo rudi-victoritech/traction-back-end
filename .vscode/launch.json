@@ -9,9 +9,9 @@
     "name": "Debug TypeScript",
     "skipFiles": ["<node_internals>/**", "node_modules/**"],
     "preLaunchTask": "npm: build",
-    "program": "${workspaceFolder}/dist/index.js",
+    "program": "${workspaceFolder}/dist/server.js",
     "cwd": "${workspaceFolder}",
     "outFiles": ["${workspaceFolder}/dist/**/*.js"],
     "console": "integratedTerminal"
-  }]
+  }, ]
 }

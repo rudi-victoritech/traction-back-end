@@ -2,9 +2,9 @@
   "name": "time-block_back-end-01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "ts-node-dev --transpile-only --ignore-watch node_modules src/index.ts",
+    "start": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2"
   }
 }
