@@ -3,8 +3,8 @@ import Mongoose from "mongoose";
 
 let database: Mongoose.Connection;
 
-export const connect = () => {
-  const uri = `mongodb://localhost/time-block`;
+export const dbConnect = () => {
+  const uri = `mongodb://localhost/traction`;
 
   if (database) {
     return;
@@ -27,7 +27,7 @@ export const connect = () => {
   });
 };
 
-export const disconnect = () => {
+export const dbDisconnect = () => {
   if (!database) {
     return;
   }
